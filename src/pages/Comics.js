@@ -11,23 +11,7 @@ export default function Comics() {
      // useFecha ("comillas invertidas" pagina web &limit={variable useState})
     const listComics = useFetch(`http://gateway.marvel.com/v1/public/comics?ts=1&apikey=cb144388a602ec642946106969fe3eff&hash=1448e4152ea7fe6ac11f8e825d92b22e&limit=${renderComics}`);
     
-    /*
-    ('<a href="
-    http://gateway.marvel.com/v1/public/comics?ts=1&apikey=cb144388a602ec642946106969fe3eff&hash=1448e4152ea7fe6ac11f8e825d92b22e
-    &limit=%24%7BrenderComics%7D');
-
-     " rel="nofollow"><u>
-
-     
-     </u></a>
-     */
-
-
-
-
-    
-
-    console.log(listComics);
+   // console.log(listComics);
 
     return (
         <div>

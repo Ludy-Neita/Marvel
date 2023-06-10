@@ -46,22 +46,30 @@ code {
   background-position: top;
 }
 
+.error-404{
+  background-image: url(./img/page-404.jpeg);
+  background-size: cover;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center;
+}
+
 .error-404-context-text{
-  display: flex !important;
+  display: inline-block !important;
   align-items: center !important;
   justify-content: center !important;
   height: 100vh;
+  padding-top: 50px;
 }
 
 .error-404 .error-404-context-text h1{
   color: white;
+
 }
 
 .error-404 .error-404-context-text h2{
   color: white;
-  margin-bottom: 50px;
+
 }
 
-.error-404 .error-404-context-text .error-404-context-text-container{
-  text-align: center;
-}
+

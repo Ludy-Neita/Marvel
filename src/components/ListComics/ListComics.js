@@ -21,6 +21,8 @@ export default function ListComics({ listComics, renderComics, setRenderComics }
 
     };
 
+   // console.log(results) para ver que se cargan los 5 de demás
+
     return (
         <div>
             Desde listado de comics
@@ -34,7 +36,7 @@ export default function ListComics({ listComics, renderComics, setRenderComics }
                         <Image
                             src={`${res.thumbnail.path}.${res.thumbnail.extension}`}
                             wrapped
-                            ui={false}
+                            ui={false} // DUDA: QUE SIGNIFICA???
                         />
                         <Card.Content>
 
