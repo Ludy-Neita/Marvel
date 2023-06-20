@@ -9,7 +9,7 @@ export default function Comics() {
     const [renderComics, setRenderComics] = useState(10);
 
      // useFecha ("comillas invertidas" pagina web &limit={variable useState})
-    const listComics = useFetch(`http://gateway.marvel.com/v1/public/comics?ts=1&apikey=cb144388a602ec642946106969fe3eff&hash=1448e4152ea7fe6ac11f8e825d92b22e&limit=${renderComics}`);
+    const listComics = useFetch(`https://gateway.marvel.com/v1/public/comics?ts=1&apikey=cb144388a602ec642946106969fe3eff&hash=1448e4152ea7fe6ac11f8e825d92b22e&limit=${renderComics}`);
     
    // console.log(listComics);
 

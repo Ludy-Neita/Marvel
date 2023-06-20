@@ -7,7 +7,7 @@ export default function Series() {
 
     //hacer peticion
 
-    const listSeries = useFetch('http://gateway.marvel.com/v1/public/series?ts=1&apikey=cb144388a602ec642946106969fe3eff&hash=1448e4152ea7fe6ac11f8e825d92b22e&limit=20');
+    const listSeries = useFetch('https://gateway.marvel.com/v1/public/series?ts=1&apikey=cb144388a602ec642946106969fe3eff&hash=1448e4152ea7fe6ac11f8e825d92b22e&limit=20');
 
     console.log(listSeries);
 
